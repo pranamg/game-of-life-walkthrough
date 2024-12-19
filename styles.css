@@ -1,8 +1,20 @@
+/* Custom Properties */
+:root {
+    --color-background: #0d1117;
+    --color-cell-sparse: #9be9a8;
+    --color-cell-moderate: #40c463;
+    --color-cell-dense: #30a14e;
+    --color-cell-crowded: #216e39;
+}
+
+/* Base Styles */
 body {
     margin: 0;
     overflow: hidden;
-    background: #0d1117;  /* GitHub dark theme background */
+    background: var(--color-background);
 }
+
+/* Components */
 canvas {
     display: block;
 }
